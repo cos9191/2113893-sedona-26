@@ -1,0 +1,1 @@
+let form=document.querySelector(".form__grid"),modalSuccess=document.querySelector(".modal--success"),modalButton=document.querySelector(".modal__button");form.onsubmit=function(e){e.preventDefault(),modalSuccess.classList.remove("visually-hidden")},modalButton.onclick=function(){modalSuccess.classList.add("visually-hidden")};

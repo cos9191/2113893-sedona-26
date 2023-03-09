@@ -1,0 +1,1 @@
+let likeWrappers=document.querySelectorAll(".gallery-card__like-wrapper");likeWrappers.forEach((e=>{let l=e.querySelector(".gallery-card__like-icon"),r=e.querySelector(".gallery-card__like-counter");e.onclick=function(){l.classList.contains("gallery-card__like-icon--activated")?r.textContent--:r.textContent++,l.classList.toggle("gallery-card__like-icon--activated")}}));
